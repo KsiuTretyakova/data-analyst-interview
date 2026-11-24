@@ -85,7 +85,7 @@ const DATA = [
 ["Скільки разів за добу годинна і хвилинна стрілки збігаються?","<b>22 рази</b> (а не 24): за 12 годин — 11 разів, бо між 11:00 і 13:00 збіг лише один (12:00)."],
 ["Продовж послідовність: 2, 6, 12, 20, 30, …","Різниці 4, 6, 8, 10 → наступна 12, тобто <b>42</b>. Або формула n·(n+1): 6·7 = 42."],
 ["Скільки настроювачів піаніно у Києві? (класична задача Фермі)","~3 млн жителів → ~1,2 млн домогосподарств; піаніно в ~2% → ~25 тис. + школи → ~30 тис. піаніно. Налаштування раз на рік, настроювач робить ~2 на день × 250 днів = 500 на рік → <b>~60 настроювачів</b>."],
-["Скільки чашок кави випивають в Україні за день?","~30 млн дорослих; каву п'ють ~60%; в середньому ~1,5 чашки → 30 × 0,6 × 1,5 ≈ <b>27 млн чашок</b> на день. Важлива логіка, а не точне число."]
+["Скільки чашок кави випивають в Україні за день?","~25 млн дорослих; каву п'ють ~60%; в середньому ~1,5 чашки → 25 × 0,6 × 1,5 ≈ <b>22 млн чашок</b> на день. Важлива логіка, а не точне число."]
 ]},
 {id:"excel", title:"Excel / Google Sheets", intro:"Базовий інструмент. Знай агрегатні функції, пошук (VLOOKUP/XLOOKUP), зведені таблиці та обробку помилок.", qs:[
 ["В чому різниця між Excel та Google Spreadsheets?","Excel — десктопна програма, потужніша для великих даних, Power Query, макроси VBA. Google Sheets — у браузері, зручна спільна робота в реальному часі, функції типу QUERY, IMPORTRANGE, але повільніша на великих обсягах."],
@@ -180,7 +180,7 @@ const DATA = [
 ]},
 {id:"stats", title:"Статистика", intro:"Рекомендована книга: «Practical Statistics for Data Scientists».", qs:[
 ["Що таке середнє арифметичне?","Сума всіх значень, поділена на їхню кількість.","(2+4+9)/3 = 5."],
-["Що таке медіана? Чим відрізняється від середнього?","Значення посередині відсортованого ряду. Середнє «тягнуть» великі значення, медіану — ні.","Зарплати 10, 12, 15, 100: середнє 34, медіана 13,5."],
+["Що таке медіана? Чим відрізняється від середнього?","Значення посередині відсортованого ряду. Середнє «тягнуть» великі значення, медіану — ні.","Зарплати 10, 12, 15, 100: середнє 34,25, медіана 13,5."],
 ["Перевага медіани над середнім?","Стійка до викидів — краще описує «типове» значення при перекошених даних (доходи, ціни на житло)."],
 ["Що таке мода?","Значення, що трапляється найчастіше.","1, 2, 2, 3, 5 → мода 2."],
 ["Що таке квартилі?","Значення, що ділять відсортовані дані на 4 рівні частини: Q1 (25%), Q2 (50%, медіана), Q3 (75%)."],
@@ -381,7 +381,7 @@ const DATA_EN = [
 ["How many times a day do the hour and minute hands overlap?","<b>22 times</b> (not 24): 11 times per 12 hours, since between 11:00 and 13:00 there's only one overlap (12:00)."],
 ["Continue the sequence: 2, 6, 12, 20, 30, …","Differences 4, 6, 8, 10 → next 12, so <b>42</b>. Or formula n·(n+1): 6·7 = 42."],
 ["How many piano tuners are there in Kyiv? (classic Fermi question)","~3M residents → ~1.2M households; ~2% have a piano → ~25k + schools → ~30k pianos. Tuned once a year; a tuner does ~2 per day × 250 days = 500 per year → <b>~60 tuners</b>."],
-["How many cups of coffee are drunk in Ukraine per day?","~30M adults; ~60% drink coffee; ~1.5 cups on average → 30 × 0.6 × 1.5 ≈ <b>27M cups</b> a day. The logic matters, not the exact number."]
+["How many cups of coffee are drunk in Ukraine per day?","~25M adults; ~60% drink coffee; ~1.5 cups on average → 25 × 0.6 × 1.5 ≈ <b>22M cups</b> a day. The logic matters, not the exact number."]
 ]},
 {title:"Excel / Google Sheets", intro:"A core tool. Know aggregate functions, lookups (VLOOKUP/XLOOKUP), pivot tables and error handling.", qs:[
 ["What's the difference between Excel and Google Sheets?","Excel is a desktop app, more powerful for large data, Power Query, VBA macros. Google Sheets runs in the browser, great real-time collaboration, functions like QUERY, IMPORTRANGE, but slower on big data."],
@@ -476,7 +476,7 @@ const DATA_EN = [
 ]},
 {title:"Statistics", intro:"Recommended book: «Practical Statistics for Data Scientists».", qs:[
 ["What is the arithmetic mean?","The sum of all values divided by their count.","(2+4+9)/3 = 5."],
-["What is the median? How does it differ from the mean?","The middle value of a sorted series. Large values «pull» the mean, but not the median.","Salaries 10, 12, 15, 100: mean 34, median 13.5."],
+["What is the median? How does it differ from the mean?","The middle value of a sorted series. Large values «pull» the mean, but not the median.","Salaries 10, 12, 15, 100: mean 34.25, median 13.5."],
 ["Advantage of the median over the mean?","Robust to outliers — better describes the «typical» value in skewed data (incomes, house prices)."],
 ["What is the mode?","The most frequent value.","1, 2, 2, 3, 5 → mode is 2."],
 ["What are quartiles?","Values splitting sorted data into 4 equal parts: Q1 (25%), Q2 (50%, median), Q3 (75%)."],
@@ -677,7 +677,7 @@ const DATA_DE = [
 ["Wie oft am Tag überdecken sich Stunden- und Minutenzeiger?","<b>22-mal</b> (nicht 24): 11-mal pro 12 Stunden, weil es zwischen 11:00 und 13:00 nur eine Überdeckung gibt (12:00)."],
 ["Setze die Folge fort: 2, 6, 12, 20, 30, …","Differenzen 4, 6, 8, 10 → als Nächstes 12, also <b>42</b>. Oder Formel n·(n+1): 6·7 = 42."],
 ["Wie viele Klavierstimmer gibt es in Kyjiw? (klassische Fermi-Frage)","~3 Mio. Einwohner → ~1,2 Mio. Haushalte; ~2 % haben ein Klavier → ~25 Tsd. + Schulen → ~30 Tsd. Klaviere. Einmal im Jahr gestimmt; ein Stimmer schafft ~2 pro Tag × 250 Tage = 500 pro Jahr → <b>~60 Stimmer</b>."],
-["Wie viele Tassen Kaffee werden in der Ukraine pro Tag getrunken?","~30 Mio. Erwachsene; ~60 % trinken Kaffee; im Schnitt ~1,5 Tassen → 30 × 0,6 × 1,5 ≈ <b>27 Mio. Tassen</b> pro Tag. Die Logik zählt, nicht die genaue Zahl."]
+["Wie viele Tassen Kaffee werden in der Ukraine pro Tag getrunken?","~25 Mio. Erwachsene; ~60 % trinken Kaffee; im Schnitt ~1,5 Tassen → 25 × 0,6 × 1,5 ≈ <b>22 Mio. Tassen</b> pro Tag. Die Logik zählt, nicht die genaue Zahl."]
 ]},
 {title:"Excel / Google Sheets", intro:"Ein Basiswerkzeug. Kenne Aggregatfunktionen, Suchfunktionen (SVERWEIS/XVERWEIS), Pivot-Tabellen und Fehlerbehandlung. Funktionsnamen sind in der englischen Version angegeben.", qs:[
 ["Was ist der Unterschied zwischen Excel und Google Sheets?","Excel ist eine Desktop-App, stärker bei großen Daten, Power Query, VBA-Makros. Google Sheets läuft im Browser, hervorragende Echtzeit-Zusammenarbeit, Funktionen wie QUERY, IMPORTRANGE, aber langsamer bei großen Datenmengen."],
@@ -754,11 +754,11 @@ const DATA_DE = [
 ["Welche Datenquellen unterstützt Power Query?","Excel, CSV, TXT, Ordner mit Dateien, Datenbanken (SQL Server, PostgreSQL, MySQL), Webseiten, APIs, SharePoint, Google BigQuery und mehr."],
 ["Wie bereinigt man Daten in Power Query?","Überflüssige Spalten/Zeilen entfernen, Duplikate und Leerwerte entfernen, Trim/Clean, Typen ändern, Spalten teilen, Werte ersetzen, filtern."],
 ["Wie arbeitet man mit Datentypen in Power Query?","Typ-Symbol neben dem Spaltennamen anklicken und wählen (Text, Ganze Zahl, Datum …). Power Query erkennt Typen selbst, aber das sollte man prüfen. Fehlgeschlagene Umwandlungen erscheinen als Error."],
-["Wie findet und entfernt man Duplikate in Power Query?","Spalte(n) markieren → Start → Zeilen entfernen → Duplikate entfernen. Finden: Zeilen beibehalten → Duplikate beibehalten."],
+["Wie findet und entfernt man Duplikate in Power Query?","Spalte(n) markieren → Start → Zeilen verringern → Zeilen entfernen → Duplikate entfernen. Finden: Zeilen beibehalten → Duplikate beibehalten."],
 ["Wie benennt man eine Spalte um?","Doppelklick auf die Überschrift oder Rechtsklick → Umbenennen."],
 ["Wofür ist der Bereich „Angewendete Schritte“?","Zeigt die gesamte Historie der Transformationen. Man kann zu einem Schritt zurück, ihn ändern oder löschen — der Prozess ist transparent und reproduzierbar."],
 ["Wofür ist „Spalte teilen“?","Eine Spalte anhand eines Trennzeichens oder einer Zeichenanzahl in mehrere aufteilen.","„Max Müller“ → „Max“ und „Müller“."],
-["Wie entfernt man leere Werte?","Spaltenfilter → (null)/(leer) abwählen oder Start → Zeilen entfernen → Leere Zeilen entfernen."],
+["Wie entfernt man leere Werte?","Spaltenfilter → (null)/(leer) abwählen oder Start → Zeilen verringern → Zeilen entfernen → Leere Zeilen entfernen."],
 ["Wie kombiniert man Daten in Power Query?","Abfragen zusammenführen (Merge) — wie JOIN (Spalten per Schlüssel). Abfragen anfügen (Append) — wie UNION (Zeilen)."],
 ["Was ist DAX?","Die Formelsprache von Power BI für berechnete Measures und Spalten.","<code>Total Sales = SUM(Sales[Amount])</code>, CALCULATE, FILTER."],
 ["Worksheet vs. Dashboard in Tableau?","Ein Worksheet ist eine einzelne Visualisierung. Ein Dashboard ist eine Fläche, die mehrere Worksheets mit Filtern und Interaktivität kombiniert."],
@@ -772,7 +772,7 @@ const DATA_DE = [
 ]},
 {title:"Statistik", intro:"Buchtipp: „Practical Statistics for Data Scientists“.", qs:[
 ["Was ist das arithmetische Mittel?","Die Summe aller Werte geteilt durch ihre Anzahl.","(2+4+9)/3 = 5."],
-["Was ist der Median? Unterschied zum Mittelwert?","Der mittlere Wert einer sortierten Reihe. Große Werte „ziehen“ den Mittelwert, den Median nicht.","Gehälter 10, 12, 15, 100: Mittel 34, Median 13,5."],
+["Was ist der Median? Unterschied zum Mittelwert?","Der mittlere Wert einer sortierten Reihe. Große Werte „ziehen“ den Mittelwert, den Median nicht.","Gehälter 10, 12, 15, 100: Mittel 34,25, Median 13,5."],
 ["Vorteil des Medians gegenüber dem Mittelwert?","Robust gegen Ausreißer — beschreibt den „typischen“ Wert bei schiefen Daten besser (Einkommen, Immobilienpreise)."],
 ["Was ist der Modus?","Der häufigste Wert.","1, 2, 2, 3, 5 → Modus 2."],
 ["Was sind Quartile?","Werte, die sortierte Daten in 4 gleiche Teile teilen: Q1 (25 %), Q2 (50 %, Median), Q3 (75 %)."],

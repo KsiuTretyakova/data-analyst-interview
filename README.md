@@ -18,7 +18,7 @@
 - Приклади з кодом і розрахунками
 - Темна тема і версія для друку
 ### Як користуватися
-Відкрийте `data-analyst-interview.html` у будь-якому браузері. Встановлювати нічого не потрібно, інтернет теж не потрібен.
+Відкрийте `index.html` у будь-якому браузері. Встановлювати нічого не потрібно, інтернет теж не потрібен.
  
 ### Джерело
 Питання взято зі статті Романа Повзика [«250+ питань для підготовки до співбесіди початківцю в аналітиці даних»](https://dou.ua/forums/topic/44769/) (DOU) і доповнено логічними задачами. Відповіді — короткі пояснення для підготовки, а не єдино правильний варіант.
@@ -39,7 +39,7 @@ Recruiter pre-screen · Logic & Fermi estimation · Excel / Google Sheets · SQL
 - Examples with code and calculations
 - Dark mode and print-friendly layout
 ### Usage
-Open `data-analyst-interview.html` in any browser. Nothing to install, and it works offline.
+Open `index.html` in any browser. Nothing to install, and it works offline.
  
 ### Source
 Questions are based on Roman Povzyk's article [«250+ interview prep questions for junior data analysts»](https://dou.ua/forums/topic/44769/) (DOU), extended with extra logic puzzles. The answers are short explanations for practice, not the only correct ones.
